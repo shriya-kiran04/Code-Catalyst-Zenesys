@@ -22,11 +22,34 @@ The system processes documents such as invoices, purchase orders, delivery notes
 - Decision Engine
 - ERP-Ready Output
 
+## Privacy & Security
+
+DocuSheild AI follows a privacy-first approach for processing sensitive business documents.
+
+The planned security architecture includes:
+
+- Secure document upload and processing
+- Temporary document handling
+- Minimal data retention
+- Protection of sensitive extracted information
+- Environment-based configuration for API credentials
+- Trusted Execution Environment (TEE) support for secure AI processing
+- Controlled access to processed documents and results
+
+### Trusted Execution Environment (TEE)
+
+A Trusted Execution Environment is planned as an additional security layer for sensitive document and AI processing.
+
+TEE can provide an isolated execution environment where confidential documents and AI processing can be protected from unauthorized access by the surrounding system.
+
+> TEE integration is part of the planned security architecture and will be evaluated/implemented during the development phase.
+
 ## Project Architecture
-(Architecture image will be added here)
+
 
 ## Current Status
 - [x] Problem Statement Added
+- [x] FastAPI Backend Foundation
 - [ ] Architecture Documentation
 - [ ] Document Processing Module
 - [ ] Information Extraction Module
