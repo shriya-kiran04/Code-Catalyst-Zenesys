@@ -49,13 +49,18 @@ TEE can provide an isolated execution environment where confidential documents a
 
 ## Current Status
 - [x] Problem Statement Added
-- [x] FastAPI Backend Foundation
 - [ ] Architecture Documentation
-- [ ] Document Processing Module
-- [ ] Information Extraction Module
+- [x] FastAPI Backend Foundation
+- [x] Document Processing Module
+- [x] Information Extraction Module
 - [ ] Validation Engine
-- [ ] Fraud Detection Engine
-- [ ] Dashboard
+- [ ] Consistency & Anomaly Analysis
+- [ ] Evidence-Based Verification
+- [ ] Document-Grounded AI Q&A
+- [ ] Frontend Dashboard
+- [ ] Multi-Document Comparison
+- [ ] Cross-Document Verification
+- [ ] TEE / Confidential Computing Integration
 
 ## Tech Stack
 To be finalized during development.
