@@ -1,69 +1,141 @@
 # Code-Catalyst-Zenesys
 # DocuSheild AI
 
+### AI-Powered Document Intelligence & Verification
+
+DocuSheild AI is an AI-powered document intelligence system that helps users **understand, verify, and interact with business documents**.
+
+It processes **one uploaded document at a time**, extracts important information, identifies inconsistencies and anomalies, provides evidence for its findings, and allows users to ask questions about the document with grounded answers.
+
+---
+
 ## Problem Statement
-AI-Powered Document Intelligence
 
-## Overview
-DocuSheild AI is a privacy-first AI document intelligence system that helps organizations process business documents, extract key information, detect anomalies, identify potential fraud, and generate ERP-ready outputs.
+Manually reviewing business documents such as invoices, receipts, purchase orders, and delivery notes can be time-consuming and error-prone.
 
-## Team Members
-- Shriya Pawar
-- Shruti
+DocuSheild AI aims to automate document understanding and verification while keeping AI responses grounded in the uploaded document.
 
-## Proposed Solution
-The system processes documents such as invoices, purchase orders, delivery notes, and receipts through a secure AI pipeline consisting of:
-- Document Classification
-- OCR & Information Extraction
-- Validation Engine
-- Cross-Document Verification
-- Risk & Anomaly Detection
-- Fraud Detection
-- Decision Engine
-- ERP-Ready Output
+---
 
-## Privacy & Security
+## Solution
 
-DocuSheild AI follows a privacy-first approach for processing sensitive business documents.
+Our system follows this workflow:
 
-The planned security architecture includes:
+```text
+Upload ONE Document
+        ↓
+Document Processing
+        ↓
+Text / Data Extraction
+        ↓
+Document Understanding
+        ↓
+Important Field Identification
+        ↓
+Consistency & Anomaly Analysis
+        ↓
+Verification Result + Evidence
+        ↓
+User Interacts with Document
+        ↓
+User Question
+        ↓
+AI Searches Uploaded Document
+        ↓
+Document-Grounded Answer
+        ↓
+Proof / Evidence from Document
+```
 
-- Secure document upload and processing
-- Temporary document handling
-- Minimal data retention
-- Protection of sensitive extracted information
-- Environment-based configuration for API credentials
-- Trusted Execution Environment (TEE) support for secure AI processing
-- Controlled access to processed documents and results
+---
 
-### Trusted Execution Environment (TEE)
+## Key Features
 
-A Trusted Execution Environment is planned as an additional security layer for sensitive document and AI processing.
+* 📄 **Single Document Upload**
+* 🔍 **Text & Data Extraction**
+* 🧠 **Document Understanding**
+* 📌 **Important Field Identification**
+* ⚠️ **Consistency & Anomaly Analysis**
+* ✅ **Verification with Evidence**
+* 💬 **Interactive Document Q&A**
+* 🔎 **Document-Grounded Answers**
+* 📑 **Proof / Evidence from the Document**
 
-TEE can provide an isolated execution environment where confidential documents and AI processing can be protected from unauthorized access by the surrounding system.
-
-> TEE integration is part of the planned security architecture and will be evaluated/implemented during the development phase.
-
-## Project Architecture
-
-
-## Current Status
-- [x] Problem Statement Added
-- [ ] Architecture Documentation
-- [x] FastAPI Backend Foundation
-- [x] Document Processing Module
-- [x] Information Extraction Module
-- [ ] Validation Engine
-- [ ] Consistency & Anomaly Analysis
-- [ ] Evidence-Based Verification
-- [ ] Document-Grounded AI Q&A
-- [ ] Frontend Dashboard
-- [ ] Multi-Document Comparison
-- [ ] Cross-Document Verification
-- [ ] TEE / Confidential Computing Integration
+---
 
 ## Tech Stack
-To be finalized during development.
 
-## License
-Hackathon Project
+| Component         | Technology        |
+| ----------------- | ----------------- |
+| Frontend          | React + Vite      |
+| Backend           | Python + FastAPI  |
+| Server            | Uvicorn           |
+| API Documentation | Swagger / OpenAPI |
+| Version Control   | Git + GitHub      |
+
+---
+
+## Architecture
+
+```text
+User
+ ↓
+React + Vite Frontend
+ ↓
+FastAPI Backend
+ ↓
+Document Processing
+ ↓
+Extraction & Understanding
+ ↓
+Consistency / Anomaly Analysis
+ ↓
+Verification + Evidence
+ ↓
+Document-Grounded Q&A
+ ↓
+Answer + Proof
+```
+
+---
+
+## Current MVP
+
+The current MVP focuses on **single-document analysis and interaction**.
+
+* [x] Frontend
+* [x] FastAPI Backend Foundation
+* [x] Document Processing
+* [x] Information Extraction
+* [x] Consistency & Anomaly Analysis
+* [ ] Verification + Evidence
+* [x] Document-Grounded Q&A
+* [ ] Evidence for AI Answers
+
+> Checklist items will be updated as features are integrated and tested.
+
+---
+
+## Team
+
+**Shriya Pawar** — Frontend & Project Development
+**Shruti** — Backend & API Development
+
+---
+
+## Future Scope
+
+* Advanced fraud detection
+* ERP integrations
+* Advanced anomaly detection
+* Multi-document verification
+* Audit logs
+* Enhanced security and privacy mechanisms
+
+---
+
+## Project Status
+
+🚧 **Hackathon MVP — In Development**
+
+**DocuSheild AI: Understand → Analyze → Verify → Ask → Prove**
